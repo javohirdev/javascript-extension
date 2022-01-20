@@ -1,0 +1,128 @@
+/**FONT**/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+.form,
+.welcome{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
+
+.item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.item > .randomImage{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, 5%);
+}
+.timeSec{
+    text-align: center;
+}
+.clock{
+    text-align: center;
+    font-size: 11rem;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.name, .names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.helloText{
+    padding-right: 7px;
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.welcomeName{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.nameInput{
+    background-color: transparent;
+    border: none;
+    padding: 10px 5px;
+    color: #fff;
+    font-size: 30px;
+    margin-right: -200px;
+}
+.nameInput:focus{
+    outline: none;
+}
+.nameInput::placeholder{
+    color: #fff;
+}
+.removeName{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.todoLists{ /**input**/
+    background-color: transparent;
+    border: none;
+    padding: 10px 5px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1.5px solid #fff;
+    padding-bottom: 5px;
+}
+.todoLists::placeholder{
+    color: #Fff;
+}
+.todoLists:focus{
+    outline: none;
+}
+.todoSec{
+    text-align: center;
+}
+#todo-list{ /**ul**/
+    padding: 25px 0 0 0;
+}
+#todo-list > li{
+    list-style-type: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quotes{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    color: #fff;
+    font-family: system-ui;
+    font-size: 17px;
+    font-style: italic;
+    display: flex;
+}

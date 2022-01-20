@@ -1,0 +1,18 @@
+{
+    "name": "Momentum Clone",
+    "version": "1.0",
+    "description": "Momentum extension clone with JavaScript, APIs",
+    "manifest_version": 2,
+    "incognito": "split",
+    "icons": {
+        "16": "favicon-16x16.png",
+        "48": "favicon-32x32.png",
+        "128": "apple-touch-icon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
