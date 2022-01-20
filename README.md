@@ -1,7 +1,7 @@
-## Momentum Extension clone with JavaScript
+# Momentum Extension clone with JavaScript
 
-# Video tutorial:
+## Video tutorial:
 
 
-# Demo:
+## Demo:
 https://jsextension.netlify.app/
