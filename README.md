@@ -3,5 +3,4 @@
 ## Video tutorial:
 
 
-## Demo:
-https://jsextension.netlify.app/
+## Demo: https://jsextension.netlify.app/
